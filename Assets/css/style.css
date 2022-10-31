@@ -60,7 +60,6 @@ main {
 }
 
 aside {
-  float: left;
   margin:30%
   flex: 30%;
   background-color: var(--light-tan);
@@ -80,7 +79,6 @@ font-size: 50px;
 }
 
 section {
-  float:left;
   flex: 70%;
   background-color: var(--light-tan);
   padding: 20px;
@@ -92,10 +90,6 @@ footer {
   background: #13293d;
   color: #fff;
 }
-
-
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
   header {
