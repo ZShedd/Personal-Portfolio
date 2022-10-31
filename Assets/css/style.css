@@ -26,7 +26,7 @@ header {
  h1 {
   background-color:var(--light-tan);
   padding-right: 1%;
-  padding-left: 7%;
+  padding-left: 10%;
   font-size: 60px;
  }
 /* Nav bar */
@@ -60,6 +60,8 @@ main {
 }
 
 aside {
+  float: left;
+  margin:30%
   flex: 30%;
   background-color: var(--light-tan);
   padding: 20px;
@@ -78,6 +80,7 @@ font-size: 50px;
 }
 
 section {
+  float:left;
   flex: 70%;
   background-color: var(--light-tan);
   padding: 20px;
@@ -90,14 +93,6 @@ footer {
   color: #fff;
 }
 
-/* Image Placeholders */
-.sample-img {
-  background-color: #fff;
-  width: 100%;
-  padding: 20px;
-  height: 200px;
-  border: 1px solid black;
-}
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
